@@ -17,7 +17,11 @@ let obj: Hello = { name: 'xzz', age: 18 }
 // 联合类型 |    string | number | Boolean
 
 // 交叉类型 &
-
+interface AB { a: string }
+interface BC { b: number }
+const ab: AB = { a: '123' }
+const bc: BC = { b: 123 }
+const abcd: AB & BC = { ...ab, ...bc }
 
 // 数组 -- 指定类型
 let numbers: number[] = [1, 2, 3]

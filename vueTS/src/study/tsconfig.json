@@ -1,15 +1,15 @@
 {
-    "compilerOptions": {
-      "target": "esnext", /* 目标js的版本,涉及有 'ES3'(default),'ES5','ES2015','ES2016','ES2017','ES2018','ES2019','ES2020',or 'ESNEXT' */
-      "module": "esnext", /* 目标代码的模块结构版本,涉及有 'none','commonjs','amd','system','umd','es2015','es2020',or 'esnext' */
-      "moduleResolution": "node", /* 此处设置为node,才能解析import xx from 'xx' */
-      "strict": true,
-      "jsx": "preserve",
-      "sourceMap": true, /* 是否生成sourceMap文件 */
-      "resolveJsonModule": true,
-      "esModuleInterop": true, /* 是否支持别名导入,例如 import * as React from 'react' */
-      "lib": ["esnext", "dom"] /* 编译过程中需要引入的库文件的列表 */
-    },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"] /* 入口文件 */
-  }
+  "compilerOptions": {
+    "target": "esnext", /* 目标js的版本,涉及有 'ES3'(default),'ES5','ES2015','ES2016','ES2017','ES2018','ES2019','ES2020',or 'ESNEXT' */
+    "module": "esnext", /* 目标代码的模块结构版本,涉及有 'none','commonjs','amd','system','umd','es2015','es2020',or 'esnext' */
+    "moduleResolution": "node", /* 此处设置为node,才能解析import xx from 'xx' */
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true, /* 是否生成sourceMap文件 */
+    "resolveJsonModule": true,
+    "esModuleInterop": true, /* 是否支持别名导入,例如 import * as React from 'react' */
+    "lib": ["esnext", "dom"] /* 编译过程中需要引入的库文件的列表 */
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"] /* 入口文件 */
+}
   
