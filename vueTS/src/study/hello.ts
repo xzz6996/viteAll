@@ -4,7 +4,7 @@
 // 类型推断 type inference -- TS会自动尝试分析变量的类型
 
 
-// 基础类型 number string boolean numm undefined void never object array 元组 enum any
+// 基础类型 number string boolean num undefined void never object array 元组 enum any
 // 高级基础 一般都是对object做更多的标注
 
 interface Hello {
@@ -78,7 +78,7 @@ interface Animal {
 }
 
 class dog implements Animal {
-    food = '屎'
+    food = '狗粮'
     age = 18
     fly(word: string) {
         console.log(word)
@@ -88,3 +88,11 @@ class dog implements Animal {
         return food
     }
 }
+
+// 类型别名 type
+
+// 索引类型
+type AAA = keyof { a: '12', b: 666 }
+
+// 映射类型  Readonly--让属性都变为已读  Partial--让属性变为可选   Required--让属性变为必选
+
